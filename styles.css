@@ -45,7 +45,6 @@ body {
     flex-direction: column;
     align-items: start;
     min-width: 300px;
-    max-width: 600px;
     gap: 16px;
 
 
@@ -56,8 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
-    min-width: 300px;
-    max-width: 600px;
+   
     gap: 16px;
     width: 100%;
   
@@ -263,9 +261,12 @@ ul {
     }
     .headerContent{
         gap: 24px;
+        
     }
     .mainContent{
         gap: 24px;
+        min-width: 400px;
+       
     }
 
     .collectionTitle1 {
@@ -307,9 +308,11 @@ ul {
     }
     .headerContent{
         gap: 32px;
+        max-width: 600px;
     }
     .mainContent{
         gap: 32px;
+        max-width: 600px;
     }
 
     .collectionTitle1 {
