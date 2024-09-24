@@ -38,6 +38,7 @@ body {
     align-self: stretch;
     border-radius: 16px;
     background: #FFFFFF;
+    line-height: 170%;
 }
 
 .headerContent {
