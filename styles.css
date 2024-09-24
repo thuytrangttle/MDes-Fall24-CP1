@@ -1,0 +1,173 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 16px;
+    font-family: Roboto Mono, Arial, Helvetica, sans-serif;
+    background: #F9F1F0;
+
+
+}
+
+.nameDate {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+
+}
+
+.quoteSection {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: #FFFFFF;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    min-width: 200px;
+    gap: 16px;
+
+
+}
+
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    min-width: 200px;
+    gap: 16px;
+
+}
+
+.linksList {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+
+}
+
+.collection1 {
+    align-self: stretch;
+}
+
+.collection2 {
+    align-self: stretch;
+}
+
+.collectionTitle1 {
+    background: #BED1E4;
+    padding: 16px;
+    align-self: stretch;
+
+
+}
+
+.collectionTitle2 {
+    background: #BED1E4;
+    padding: 16px;
+    align-self: stretch;
+
+
+}
+
+.collectionImages1 {
+    display: flex;
+    padding: 24px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+
+}
+
+.collectionImages2 {
+    display: flex;
+    padding: 24px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+
+/* Specific styling for the date list */
+.date-list {
+    text-align: center;
+    /* Ensure the date text is centered */
+    font-weight: bold;
+    margin-left: auto;
+    padding: 8px;
+
+}
+
+
+
+
+.img-1 {
+    width: 100px;
+    /* Set the width for the image */
+    border-radius: 50%;
+    /* Make the image a circle */
+    margin-right: 20px;
+
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    /* Remove bullet points from lists */
+    padding-left: 0;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+    /* tablet view */
+    body {
+        background-color: cornflowerblue;
+        /* make background blue*/
+        flex-direction: row;
+        align-items: start;
+        height: 100vh;
+        gap: 60px;
+        margin: 24px;
+        justify-content: center;
+
+
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    /* desktop view */
+    body {
+        background-color: lavender;
+        /* make background purlple*/
+
+    }
+}
+
+
+
+
+li {
+    padding: 4px 0;
+    /* Add 16px padding to each list item (top and bottom) */
+
+}
