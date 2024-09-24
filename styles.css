@@ -3,10 +3,11 @@ body {
     flex-direction: column;
     height: 100vh;
     align-items: center;
-    gap: 16px;
+    gap: 32px;
     padding: 24px 16px;
     font-family: Roboto Mono, Arial, Helvetica, sans-serif;
     background: #F9F1F0;
+    
 
 
 }
@@ -35,6 +36,7 @@ body {
     flex-direction: column;
     align-items: start;
     min-width: 200px;
+    max-width: 600px;
     gap: 16px;
 
 
@@ -45,8 +47,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
-    min-width: 200px;
+    min-width: 400px;
+    max-width: 600px;
     gap: 16px;
+    width: 100%;
+  
 
 }
 
@@ -59,16 +64,28 @@ body {
 
 .collection1 {
     align-self: stretch;
+    border-radius: 16px;
+    border: 2px solid #333;
+    background: #FFF;
+    
 }
 
 .collection2 {
     align-self: stretch;
+    border-radius: 16px;
+    border: 2px solid #333;
+    background: #FFF;
+
+    
 }
 
 .collectionTitle1 {
     background: #BED1E4;
     padding: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     align-self: stretch;
+    padding: 24px;
 
 
 }
@@ -76,39 +93,53 @@ body {
 .collectionTitle2 {
     background: #BED1E4;
     padding: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     align-self: stretch;
+    align-self: stretch;
+    padding: 24px;
 
 
 }
 
 .collectionImages1 {
     display: flex;
-    padding: 24px;
+    flex-direction: row;
+    padding: 16px;
     align-items: flex-start;
-    flex: 1 0 0;
     align-self: stretch;
+    gap: 16px;
 
 }
 
 .collectionImages2 {
     display: flex;
+    flex-direction: row;
     padding: 24px;
     align-items: flex-start;
-    flex: 1 0 0;
     align-self: stretch;
+    gap: 16px;
 }
 
 
-/* Specific styling for the date list */
-.date-list {
-    text-align: center;
-    /* Ensure the date text is centered */
-    font-weight: bold;
-    margin-left: auto;
-    padding: 8px;
+.collection1col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 16px;
 
 }
 
+.collection1col2 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    width: 100%;
+    gap: 16px;
+
+}
 
 
 
@@ -121,6 +152,77 @@ body {
 
 
 }
+
+
+
+#image1 {
+    background: url('images/stationaryTags.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+#image2 {
+    background: url('images/stationarySuite2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+#image3 {
+    background: url('images/stationaryTags2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+#image4 {
+    background: url('images/stationarySuite.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+#image5 {
+    background: url('images/wishlistDesk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+#image6 {
+    background: url('images/wishlistSofa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+#image7 {
+    background: url('images/wishlistCabinet.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+#image8 {
+    background: url('images/wishlistTable.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
 
 
 
@@ -143,7 +245,7 @@ ul {
         flex-direction: row;
         align-items: start;
         height: 100vh;
-        gap: 60px;
+
         margin: 24px;
         justify-content: center;
 
@@ -158,8 +260,15 @@ ul {
     /* desktop view */
     body {
         background-color: lavender;
+        gap: 80px;
+        margin: 40px;
+        justify-content: center;
         /* make background purlple*/
 
+    }
+
+    .mainContent{
+        gap: 24px;
     }
 }
 
