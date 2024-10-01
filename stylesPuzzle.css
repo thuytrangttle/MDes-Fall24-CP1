@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Pixelify Sans', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: lavender;
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 600px;
+   
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+input {
+    font-family: 'Pixelify Sans', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    width: 460px;
+
+}
+
+button {
+    padding: 10px;
+    font-family: 'Pixelify Sans', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+
+}
+
+button:hover {
+    background-color: cornflowerblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color:grey;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: rgb(118, 220, 118);
+}
+
+.successM{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 60px;
+    font-size: 40px;
+    text-align: center;
+    
+}
